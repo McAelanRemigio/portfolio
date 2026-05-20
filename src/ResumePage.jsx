@@ -2,25 +2,25 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ITEMS = [
-  { id: "i", badge: "I", title: "EDUCATION", subtitle: "SDSU / Statistics (Data Science)", rank: 1 },
+  { id: "i", badge: "I", title: "EDUCATION", subtitle: "SDSU / Statistics (Data Science) B.S.", rank: 1 },
   { id: "ii", badge: "II", title: "SKILLS", subtitle: "Data Analytics / Strategy / Operations", rank: 2 },
   { id: "iii", badge: "III", title: "PROJECTS", subtitle: "Featured Work", rank: 3 },
   { id: "iv", badge: "IV", title: "EXPERIENCE", subtitle: "Internships / Roles", rank: 4 },
 ];
 
 const EDUCATION_ROWS = [
-  { index: "01", title: "General Education", status: "In Progress" },
+  { index: "01", title: "General Education", status: "Complete" },
   { index: "02", title: "Statistics Core", status: "Complete" },
   { index: "03", title: "Data Science Track", status: "In Progress" },
   { index: "04", title: "Leadership Minor", status: "Complete" },
 ];
 
 const SKILLS = [
-  { name: "Data Science", tier: "S" },
-  { name: "Strategy / Operations", tier: "S" },
+  { name: "Strategy & Operations", tier: "S" },
   { name: "Leadership", tier: "S" },
-  { name: "Python", tier: "A" },
-  { name: "SQL", tier: "A" }
+  { name: "Business Intelligence", tier: "S" },
+  { name: "Python", tier: "S" },
+  { name: "SQL", tier: "S" }
 ];
 
 const PROJECTS = [
@@ -48,12 +48,17 @@ const PROJECTS = [
 
 const EXPERIENCE = [
   {
-    name: "Operations and Strategy Analyst",
-    type: "SDSU Career Services",
-    tag: "Jul 2025 - Present",
+    name: "Data Assistant, Strategy & Operations",
+    type: "SDSU Global Education Office",
+    tag: "May 2026 - Present",
   },
   {
-    name: "Data Scientist",
+    name: "Operations and Resources Associate",
+    type: "SDSU Career Services",
+    tag: "Jul 2025 - June 2026",
+  },
+  {
+    name: "Data Science Researcher",
     type: "Vera C. Rubin Observatory",
     tag: "May 2025 - Jul 2025",
   },
@@ -63,7 +68,7 @@ const EXPERIENCE = [
     tag: "Mar 2024 - May 2025",
   },
   {
-    name: "Data Science Fellow",
+    name: "Data Science ORISE Fellow",
     type: "CDC",
     tag: "Jun 2024 - Sep 2024",
   }
