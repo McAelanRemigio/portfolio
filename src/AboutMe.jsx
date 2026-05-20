@@ -21,10 +21,10 @@ const REVEAL_CONTENT = [
   },
   {
     upper: [
-      "Vera C. Rubin Observatory — machine learning for variable star classification",
-      "CDC (ORISE) — global infectious disease data standardization",
-      "SDSU Career Services — building scalable data systems for student operations",
-      "SDSU Research Foundation — applied statistical modeling in academic research"
+      "Vera C. Rubin Observatory",
+      "CDC ORISE Fellowship",
+      "SDSU (and other affiliates)",
+      "SDSU Research Foundation R1"
     ],
     lower: "Data Science Experience",
   },
@@ -32,7 +32,7 @@ const REVEAL_CONTENT = [
     upper: [
       "Founding President — Data Science Initiative (DSI)",
       "Vice President — Society of Statisticians & Actuaries",
-      "Selected: Mortar Board National Honor Society (Top 60 students)",
+      "Selected: Mortar Board National Honor Society (Top 50 students)",
       "Daniel B. Nowak Outstanding Student Service Leadership Award (1 of 43,000 students)"
     ],
     lower: "Leadership Experience",
